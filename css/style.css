@@ -1,0 +1,142 @@
+body a{
+    text-decoration: none;
+}
+
+
+.banner {
+    background-position: revert;
+    background: linear-gradient(0,#111152a3,#3529aa42),url(../img/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 721px;
+    /* text-align: center; */
+}
+
+.navigation {
+    background: #ffc107;
+    height: 75px;
+}
+
+.navigation ul {
+    list-style: none;
+    padding-top: 23px;
+    text-align: right;
+    width: 90%;
+}
+
+.navigation ul li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.navigation ul li a {
+    color: #0b0b84;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+.main-heading {
+    color: rgb(235, 235, 235);
+    text-align: center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%;
+    /* background: blue; */
+}
+
+.main-heading h1{
+    font-size: 4em;
+    margin: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+section.course{
+height: 800px;
+}
+
+.course-layout {
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+    /* background: bisque; */
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.course h2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 3em;
+    color:#ffc107;
+    text-decoration: underline;
+}
+
+.course-row {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.card {
+    height: 350px;
+    width: 350px;
+    border: 3px solid;
+    border-color: #0f1848e0;
+    border-radius: 12px;
+    /* box-shadow: 7px 10px 13px 0px #0e174736; */
+}
+
+.card:hover {
+    box-shadow: 7px 10px 13px 0px #0e174736;
+}
+
+.card h3 {
+    padding-top: 36px;
+    padding-bottom: 0px;
+    color: #42434d !important;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #2c2c2d !important;
+    padding-top: 32px;
+}
+
+.footer {
+    color: #d5def1 !important;
+    height: 91px;
+    text-align: center;
+    background: #2c345e;
+    padding-top: 17px;
+}
+
+.footer .bar{
+        background: #ffc107;
+        height: 55px;
+}
+
+
+/* Next Pages */
+.banner2 {
+    height: 300px;
+}
+
+.outline ul li, ol li{
+    font-weight: 500;
+    font-size: 19px;
+}
